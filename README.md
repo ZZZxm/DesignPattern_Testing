@@ -5,7 +5,7 @@ Design Pattern | Tongji Univ. course project (Test for another group)
 
 大家每个设计模式要提交以下几项：
 
-* 在``src/``下提交代码
+* 在``code/test/``下提交代码
 * 在``doc/``下提交md格式的文档
 * 在``img/``下提交文档中的截图
 
