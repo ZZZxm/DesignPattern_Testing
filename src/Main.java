@@ -53,7 +53,7 @@ import Immutable.*;
 import javax.swing.plaf.IconUIResource;
 
 /**
- * @author 
+ * @author du mei/lv ziyuan/cao qinghua/he xian/li yuanfeng/he zehua/wang qiyun/fu cheng/zhou ziyi
  */
 public class Main
 {
@@ -113,8 +113,32 @@ public class Main
             System.out.print("巧克力工厂>");
             Scanner input = new Scanner(System.in);
             String choice = input.next();
-            
-			//Some codes have been deleted by Fengjinsong :)
+            switch (choice)
+            {
+                case "1":
+                    factoryManage();
+                    break;
+                case "2":
+                    ingredientManage();
+                    break;
+                case "3":
+                    produceManage();
+                    break;
+                case "4":
+                    workerFacility();
+                    break;
+                case "5":
+                    loadTruck();
+                    break;
+                case "6":
+                    showPatterns();
+                    break;
+                case "7":
+                    printExit();
+                    System.exit(0);
+                default:
+                    System.out.println("您输入的指令有误，请重新输入");
+                    break;
             }
         }
     }
@@ -157,9 +181,23 @@ public class Main
             System.out.print("巧克力工厂>工厂管理>");
             Scanner input = new Scanner(System.in);
             String choice = input.next();
-			
-            //Some codes have been deleted by Fengjinsong :)
-			
+            switch (choice)
+            {
+                case "1":
+                    manageMoney();
+                    break;
+                case "2":
+                    machineRepair();
+                    break;
+                case "3":
+                    factoryUp();
+                    break;
+                case "4":
+                    return;
+                default:
+                    System.out.println("您输入的指令有误，请重新输入");
+                    break;
+            }
         }
     }
 
@@ -187,9 +225,21 @@ public class Main
             System.out.print("巧克力工厂>原料管理>");
             Scanner input = new Scanner(System.in);
             String choice = input.next();
-			
-            //Some codes have been deleted by Fengjinsong :)
-			
+            switch (choice)
+            {
+                case "1":
+                    // 检查库存并进行采购
+                    checkIngredient();
+                    break;
+                case "2":
+                    // 对仓库中的原料进行分类
+                    category();
+                    break;
+                case "3":
+                    return;
+                default:
+                    System.out.println("您输入的指令有误，请重新输入");
+                    break;
             }
         }
     }
@@ -221,9 +271,28 @@ public class Main
             System.out.print("巧克力工厂>生产巧克力>");
             Scanner input = new Scanner(System.in);
             String choice = input.next();
-			
-            //Some codes have been deleted by Fengjinsong :)
-			
+            switch (choice)
+            {
+                case "1":
+                    whiteChocolateProduce();
+                    break;
+                case "2":
+                    darkChocolateProduce();
+                    break;
+                case "3":
+                    abnormalProduce();
+                    break;
+                case "4":
+                    backTracing();
+                    break;
+                case "5":
+                    converter();
+                    break;
+                case "6":
+                    return;
+                default:
+                    System.out.println("您输入的指令有误，请重新输入");
+                    break;
             }
         }
     }
@@ -253,9 +322,23 @@ public class Main
             System.out.print("巧克力工厂>员工设施>");
             Scanner input = new Scanner(System.in);
             String choice = input.next();
-			
-            //Some codes have been deleted by Fengjinsong :)
-			
+            switch (choice)
+            {
+                case "1":
+                    gotoWork();
+                    break;
+                case "2":
+                    eatInCanteen();
+                    break;
+                case "3":
+                    enterOffice();
+                    break;
+                case "4":
+                    return;
+                default:
+                    System.out.println("您输入的指令有误，请重新输入");
+                    break;
+            }
         }
     }
 
@@ -299,8 +382,19 @@ public class Main
             System.out.print("巧克力工厂>巧克力装车>");
             Scanner input = new Scanner(System.in);
             String choice = input.next();
-            //Some codes have been deleted by Fengjinsong :)
-			
+            switch (choice)
+            {
+                case "1":
+                    filter();
+                    break;
+                case "2":
+                    load();
+                    break;
+                case "3":
+                    return;
+                default:
+                    System.out.println("您输入的指令有误，请重新输入");
+                    break;
             }
         }
     }
