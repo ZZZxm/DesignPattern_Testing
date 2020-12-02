@@ -23,5 +23,5 @@
 
 | 设计模式       | Class/Interface API     | framework完成度<br />（正确性25+合理性25） | Sample program/Application<br />（正确性25+合理性25） | 备注 |
 | -------------- | ----------------------- | ------------------------------------------ | ----------------------------------------------------- | ---- |
-| Factory Mathod | MachineFactory.create() | 25+25                                      | 21+22                                                 |      |
+| Factory Mathod | MachineFactory.create() | 23+23                                      | 24+22                                                 |      |
 
