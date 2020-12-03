@@ -1,4 +1,4 @@
-## 测试文档框架
+## Dirty Flag
 
 ### 测试逻辑
 
@@ -25,5 +25,5 @@
 
 | 设计模式   | Class/Interface API                                          | framework完成度<br />（正确性25+合理性25） | Sample program/Application<br />（正确性25+合理性25） | 备注 |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------ | ----------------------------------------------------- | ---- |
-| Dirty Flag | chocolateStateMemento.setFlag(Chocolate chocolate, boolean flag) <br />chocolateStateMemento.stateJudgement(boolean flag) | 22+20                                      | 25+24                                                 |      |
+| Dirty Flag | chocolateStateMemento.setFlag(Chocolate chocolate, boolean flag) <br />chocolateStateMemento.stateJudgement(boolean flag) | 23+22                                      | 25+24                                                 |      |
 
