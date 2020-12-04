@@ -15,8 +15,8 @@ public class ServantTest {
         
         MyUpgradeServant servant2 = new MyUpgradeServant();
         MyArea myArea = new MyArea();
-        servant2.upgrade(myArea, 1);
         servant.upgrade(myArea, 1);
+        servant2.upgrade(myArea, 1);
         servant2.upgrade(warehouse, 1);
 
         servant.upgrade(warehouse, -1);
