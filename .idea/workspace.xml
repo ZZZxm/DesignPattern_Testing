@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca2e372-a2e0-4e56-85d8-5c30d53fed8a" name="Default Changelist" comment="">
+    <list default="true" id="0ca2e372-a2e0-4e56-85d8-5c30d53fed8a" name="Default Changelist" comment="kerr's change">
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DesignPattern_Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DesignPattern_Testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +23,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
@@ -38,32 +46,66 @@
       <workItem from="1607008935855" duration="584000" />
       <workItem from="1607074876985" duration="277000" />
       <workItem from="1607075390985" duration="6000" />
+      <workItem from="1607075409455" duration="260000" />
+      <workItem from="1607075706485" duration="624000" />
+      <workItem from="1607076347463" duration="3000" />
+      <workItem from="1607076363795" duration="192000" />
     </task>
+    <task id="LOCAL-00001" summary="kerr's change">
+      <created>1607075591434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607075591434</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="kerr's change" />
+    <option name="LAST_COMMIT_MESSAGE" value="kerr's change" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607075431770">
+    <state x="320" y="117" key="#Project_Structure" timestamp="1607076111009">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607075431770" />
-    <state x="261" y="55" key="CommitChangelistDialog2" timestamp="1607075237063">
+    <state x="320" y="117" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1607076111009" />
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607076327833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="261" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1607075237063" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1607075571396">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607076327833" />
+    <state x="261" y="55" key="CommitChangelistDialog2" timestamp="1607075931013">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607075571396" />
-    <state x="374" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1607075410012">
+    <state x="261" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1607075931013" />
+    <state x="221" y="23" width="1024" height="808" key="SettingsEditor" timestamp="1607076191043">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="374" y="291" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1607075410012" />
+    <state x="221" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607076191043" />
+    <state x="374" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1607076363801">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="291" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1607076363801" />
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1607074880039" />
+    <state x="97" y="56" key="new project wizard" timestamp="1607076099741">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="56" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1607076099741" />
   </component>
 </project>
