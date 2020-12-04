@@ -1,3 +1,12 @@
+package test;
+
+import ChocolateFactory.ChocolatePlant;
+import ChocolateFactory.Menu;
+import Ingredient.Ingredient;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
 /**
  * @author Kerr
  * @classname IteratorTest
@@ -7,11 +16,28 @@
 
 public class IteratorTest {
     public static void main(String[] args) {
-        ChocolatePlant plant = ChocolatePlant.getInstance();
-        ChocolatePlant plant1 = ChocolatePlant.getInstance();
-        System.out.println("[TEST] If Singleton pattern is implemented correctly,");
-        System.out.println("[TEST] the following line should be \"true\":");
-        System.out.print("[TESTOUT] ");
-        System.out.println(plant == plant1);
+        System.out.println("===========================================");
+        System.out.println("*           Iterator test start           *");
+        System.out.println("===========================================");
+        // create a factory
+        ChocolatePlant chocolatePlant = ChocolatePlant.getInstance();
+
+        // create Menu
+        Menu<Ingredient> ingredientMenu;
+        ingredientMenu = chocolatePlant.getIngredientMenu();
+
+        // create Iterator
+        Iterator<Ingredient> ingredientIter = ingredientMenu.iterator();
+
+        // test
+        while (ingredientIter.hasNext())
+        {
+            Ingredient ingredient = ingredientIter.next();
+            System.out.println("the ingredient "+ingredient.type+"'s" +
+                    " amount: "+ ingredient.leftAmount);
+        }
+        System.out.println("===========================================");
+        System.out.println("*           Iterator test over           *");
+        System.out.println("===========================================");
     }
 }
